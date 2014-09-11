@@ -1,0 +1,81 @@
+	html, body, #sfmap {
+			height: 100%;
+			margin: 0px;
+			padding: 0px;
+		}
+		
+		#sfmap {
+			width: 100%;
+			left:0;
+			position:absolute;
+			top:0;
+		}
+		
+		#sidebar {
+			position: absolute;
+			width: 30%;
+			right: 0;
+			height: 100%;
+			background: #f7f7f7;
+			opacity: 0.8;
+			z-index:1002;
+
+		}
+		
+		#search {
+			position:relative;
+			height: 30px;
+			width:100%;
+			background: inherit;
+			z-index: 1000;
+			font-family:Helvetica;
+			font-color:#333;
+			padding: 5px ;
+			font-size:1.5em;
+			top:0;
+			border: 0px #f7f7f7 solid !important;
+			border-bottom:1px solid #eee;
+		}
+		
+		ul.ui-widget-content {
+			z-index: 1003;
+		}
+		
+		ul#menu {
+			list-style:none;
+			margin: 0 0;
+			padding: 5px 0;
+			overflow:scroll;
+			height:85%;
+		}
+		
+		ul#menu li {
+			list-item-style: none;
+			margin: 0 0 ;
+			font-family:Helvetica;
+			font-color:#333;
+			padding: 15px 5px ;
+			font-size:1em;
+			border-bottom: 1px solid #ccc;
+		}
+		
+		ul#menu li:hover {
+			background: #ccc;
+			font-color: #666;
+			cursor:pointer;
+		}
+		
+		.small {
+			font-size: .7em;
+		}
+		
+		.italic {
+			font-style: italic;
+		}
+		
+		.img {
+			max-width:150px;
+			float: left;
+			margin-right: 10px;
+		}
+	 
